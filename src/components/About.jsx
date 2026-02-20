@@ -18,7 +18,7 @@ export default function About() {
         <motion.div
           initial={{ opacity: 0, scale:0.8 }}
           animate={{ opacity: 1, scale:1 }}
-          transition={{ duration: 0.7, type: "soild" }}
+          transition={{ duration: 0.7, type: "soild",delay: 0.1 }}
         
         >
           <h1 className="text-white font-semibold text-3xl">ABOUT</h1>
